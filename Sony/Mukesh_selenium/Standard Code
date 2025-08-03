@@ -1,0 +1,14 @@
+mport time
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+driver=webdriver.Chrome()
+driver.clear()
+driver.refresh()
+driver.maximize_window()
+
+
+driver.implicitly_wait(5)
+driver.get("https://www.saucedemo.com/")
+https://demo.nopcommerce.com/

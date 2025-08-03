@@ -1,0 +1,26 @@
+from selenium import webdriver
+import time
+
+from selenium.webdriver.common.by import By
+
+driver=webdriver.Chrome()
+driver.maximize_window()
+driver.implicitly_wait(10)
+#driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+driver.get("https://www.facebook.com/")
+
+print(driver.title)
+print(driver.current_url)
+print(driver.page_source)
+
+
+
+
+
+# #driver.find_element(By.PARTIAL_LINK_TEXT,"Reg").click()
+# driver.find_element(By.PARTIAL_LINK_TEXT,"Register").click()
+
+
+print("/********************************** # Happy Coding, All the Best Keep going!!! # *******************************/")
+time.sleep(10)
+driver.close()
